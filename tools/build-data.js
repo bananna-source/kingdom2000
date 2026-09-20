@@ -30,16 +30,19 @@ if (!KEY) { console.error("MIGHTPULSE_KEY is not set. Get a key at https://api.m
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-// MightPulse sometimes wraps a list in an object instead of returning it bare
-// (e.g. { data: [...] } or { items: [...] }). Normalize to a real array so a
-// shape we didn't anticipate degrades to "no data this run" instead of
-// crashing the whole script with "<x>.slice is not a function".
-function toArray(v, label) {
-    if (Array.isArray(v)) return v;
-    if (v && Array.isArray(v.data)) return v.data;
-    if (v && Array.isArray(v.items)) return v.items;
-    if (v) console.warn(`  ${label}: unexpected response shape, treating as empty`);
-    return [];
+// A ranks/boards response looks like:
+//   { ok, kid, boards: [ { key: "personal_power", rows: [ {rank, score, ...} ] } ] }
+// Pull the rows for the board we asked for. Falls back to an empty list — instead
+// of crashing with "<x>.slice is not a function" — if MightPulse ever changes this
+// shape again; the site just runs another day on its last-known figures.
+function boardRows(resp, key) {
+    const boards = Array.isArray(resp?.boards) ? resp.boards : [];
+    const board = boards.find(b => b?.key === key) || boards[0];
+    if (!Array.isArray(board?.rows)) {
+          if (resp) console.warn(`  ${key}: unexpected response shape, treating as empty`);
+          return [];
+    }
+    return board.rows;
 }
 
 async function get(pathname, attempt = 1) {
@@ -84,15 +87,13 @@ async function main() {
   // Top-100 personal power board gives us the kingdom's top-100 power floor.
   console.log("Personal power board…");
     const board = await get(`/kingdoms/${KID}/ranks?board=personal_power&limit=100`);
-    console.log("  DEBUG shape:", JSON.stringify(board).slice(0, 300));
-    const entries = toArray(board?.ranks || board?.entries || board?.board, "personal power board");
+    const entries = boardRows(board, "personal_power");
     const floor100 = entries.length ? M(entries[entries.length - 1].score) : null;
 
   // Alliance power board — the leaderboard.
   console.log("Alliance power board…");
     const ab = await get(`/kingdoms/${KID}/ranks?board=alliance_power&limit=100`);
-    console.log("  DEBUG shape:", JSON.stringify(ab).slice(0, 300));
-    const allianceBoard = toArray(ab?.ranks || ab?.entries || ab?.board, "alliance power board");
+    const allianceBoard = boardRows(ab, "alliance_power");
 
   // Rosters, one call per alliance we care about.
   const alliances = [];
