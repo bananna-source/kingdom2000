@@ -56,6 +56,20 @@
     }).join("");
   }
 
+/* ---- alliance directory cards (index.html #alliances, alliances.html) ----
+   Hand-maintained cards (seats, focus, shift, spend mix, nothing an API knows) carry
+   their own rank/power/members/top-10 as live spans, tagged by alliance so one script
+   updates both the homepage summary and the full directory page. */
+(d.alliances || []).forEach(a => {
+  document.querySelectorAll(`[data-live-alliance="${a.tag}"]`).forEach(el => {
+    const field = el.getAttribute("data-live-field");
+    if (field === "rank") el.textContent = a.rank ? "#" + a.rank : "—";
+    else if (field === "power") el.textContent = M(a.power) || "—";
+    else if (field === "members") el.textContent = (a.members ?? "—") + " / 100";
+    else if (field === "top10") el.textContent = a.top10 ? a.top10.toFixed(1) + " M" : "—";
+  });
+});
+
   /* ---- placement estimator ---- */
   if (Array.isArray(d.alliances) && typeof window.applyLiveAlliances === "function") {
     const usable = d.alliances.filter(a => a.bands && a.bands.length);
