@@ -7,7 +7,7 @@
    See README for how to set INVITE and how to swap layer 1 for Cloudflare Turnstile. */
 
 /* ---- your invite, lightly scrambled. Set it with makeInvite() — see README. ---- */
-const INVITE_ENC = "RURPQy1FVElWTkktUlVPWQ==";   // placeholder: YOUR-INVITE-CODE
+const INVITE_ENC = "U1BVc25RODR2Yg==";    // discord.gg/bv48QnsUPS
 const decode = s => atob(s).split("").reverse().join("");
 
 /* ---- Layer 1: bot filter ---- */
