@@ -84,12 +84,14 @@ async function main() {
   // Top-100 personal power board gives us the kingdom's top-100 power floor.
   console.log("Personal power board…");
     const board = await get(`/kingdoms/${KID}/ranks?board=personal_power&limit=100`);
+    console.log("  DEBUG shape:", JSON.stringify(board).slice(0, 300));
     const entries = toArray(board?.ranks || board?.entries || board?.board, "personal power board");
     const floor100 = entries.length ? M(entries[entries.length - 1].score) : null;
 
   // Alliance power board — the leaderboard.
   console.log("Alliance power board…");
     const ab = await get(`/kingdoms/${KID}/ranks?board=alliance_power&limit=100`);
+    console.log("  DEBUG shape:", JSON.stringify(ab).slice(0, 300));
     const allianceBoard = toArray(ab?.ranks || ab?.entries || ab?.board, "alliance power board");
 
   // Rosters, one call per alliance we care about.
