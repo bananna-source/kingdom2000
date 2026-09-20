@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T01:47:07.280Z",
+  "generatedAt": "2026-09-20T01:53:59.246Z",
   "source": "MightPulse (https://mightpulse.com) — independent Kingshot fan site, not affiliated with Century Games",
   "kingdom": {
     "kid": 2000,
@@ -48,10 +48,10 @@
   ],
   "alliances": [
     {
-      "tag": "2KVG",
-      "name": "Two Thousand Vanguard",
+      "tag": "KZN",
+      "name": "Kaizen",
       "seats": 6,
-      "minPower": 32,
+      "minPower": 50,
       "status": "invite",
       "statusText": "Invitational only",
       "bt": "14:00 and 01:00 UTC",
@@ -68,48 +68,52 @@
         [
           70,
           999,
-          3
+          62
         ],
         [
           45,
           70,
-          11
+          31
         ],
         [
           30,
           45,
-          28
+          3
         ],
         [
           20,
           30,
-          32
+          1
         ],
         [
           12,
           20,
-          18
+          1
         ],
         [
           0,
           12,
-          6
+          0
         ]
       ],
-      "crowns": 4,
-      "live": false
+      "crowns": 1,
+      "power": 9512.8,
+      "members": 99,
+      "rank": 1,
+      "top10": 123.2,
+      "live": true
     },
     {
-      "tag": "VLR",
-      "name": "Valor Regnant",
-      "seats": 18,
-      "minPower": 21,
-      "status": "open",
-      "statusText": "Accepting now",
+      "tag": "D2F",
+      "name": "Down2Fuq",
+      "seats": 22,
+      "minPower": 50,
+      "status": "invite",
+      "statusText": "Invitational Only",
       "bt": "14:00 and 01:00 UTC",
       "rally": "6 leads / 40 join slots",
       "shift": "EU evenings",
-      "focus": "KvK prep scoring",
+      "focus": "Rally & KvK prep scoring",
       "discord": "Required",
       "spend": {
         "heavy": 12,
@@ -120,48 +124,52 @@
         [
           70,
           999,
-          1
+          57
         ],
         [
           45,
           70,
-          5
+          28
         ],
         [
           30,
           45,
-          19
+          6
         ],
         [
           20,
           30,
-          31
+          3
         ],
         [
           12,
           20,
-          26
+          0
         ],
         [
           0,
           12,
-          12
+          1
         ]
       ],
       "crowns": 1,
-      "live": false
+      "power": 8286,
+      "members": 95,
+      "rank": 2,
+      "top10": 132.2,
+      "live": true
     },
     {
-      "tag": "IRN",
-      "name": "Ironhold",
-      "seats": 21,
-      "minPower": 14,
+      "tag": "FFS",
+      "name": "FireStorm",
+      "seats": 19,
+      "minPower": 50,
       "status": "open",
       "statusText": "Accepting now",
-      "bt": "15:00 and 02:00 UTC",
+      "bt": "15:30 and 21:00 UTC",
       "rally": "5 leads / 40 join slots",
       "shift": "Americas",
-      "focus": "Bear Hunt and Championship",
+      "focus": "Rally & KvK Prep Points",
       "discord": "Encouraged",
       "spend": {
         "heavy": 6,
@@ -172,12 +180,12 @@
         [
           70,
           999,
-          0
+          48
         ],
         [
           45,
           70,
-          3
+          26
         ],
         [
           30,
@@ -187,27 +195,31 @@
         [
           20,
           30,
-          24
+          3
         ],
         [
           12,
           20,
-          31
+          1
         ],
         [
           0,
           12,
-          19
+          3
         ]
       ],
       "crowns": 1,
-      "live": false
+      "power": 6805.5,
+      "members": 93,
+      "rank": 3,
+      "top10": 114.8,
+      "live": true
     },
     {
-      "tag": "TSK",
-      "name": "Taskmasters",
-      "seats": 17,
-      "minPower": 0,
+      "tag": "LUX",
+      "name": "LuxuriousLight",
+      "seats": 19,
+      "minPower": 50,
       "status": "open",
       "statusText": "Accepting now",
       "bt": "16:00 and 03:00 UTC",
@@ -224,88 +236,40 @@
         [
           70,
           999,
-          0
+          15
         ],
         [
           45,
           70,
-          0
+          47
         ],
         [
           30,
           45,
-          4
+          23
         ],
         [
           20,
           30,
-          9
+          7
         ],
         [
           12,
           20,
-          25
-        ],
-        [
-          0,
-          12,
-          45
-        ]
-      ],
-      "crowns": 0,
-      "live": false
-    },
-    {
-      "tag": "OBL",
-      "name": "Obelisk",
-      "seats": 0,
-      "minPower": 0,
-      "status": "full",
-      "statusText": "Full — waitlist only",
-      "bt": "09:00 and 20:00 UTC",
-      "rally": "4 leads / 40 join slots",
-      "shift": "EU mornings",
-      "focus": "Sanctuary holds",
-      "discord": "Required",
-      "spend": {
-        "heavy": 5,
-        "mid": 34,
-        "f2p": 61
-      },
-      "bands": [
-        [
-          70,
-          999,
-          0
-        ],
-        [
-          45,
-          70,
           2
         ],
         [
-          30,
-          45,
-          8
-        ],
-        [
-          20,
-          30,
-          22
-        ],
-        [
-          12,
-          20,
-          33
-        ],
-        [
           0,
           12,
-          35
+          2
         ]
       ],
       "crowns": 0,
-      "live": false
+      "power": 5054.8,
+      "members": 96,
+      "rank": 4,
+      "top10": 75.6,
+      "live": true
     }
   ]
 }
