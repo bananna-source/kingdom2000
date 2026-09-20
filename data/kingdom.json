@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T01:42:39.234Z",
+  "generatedAt": "2026-09-20T01:47:07.280Z",
   "source": "MightPulse (https://mightpulse.com) — independent Kingshot fan site, not affiliated with Century Games",
   "kingdom": {
     "kid": 2000,
@@ -12,9 +12,40 @@
     "power": 53607,
     "powerRank": 1854,
     "activityRank": 1488,
-    "floor100": null
+    "floor100": 91.8
   },
-  "leaderboard": [],
+  "leaderboard": [
+    {
+      "pos": 1,
+      "abbr": "KZN",
+      "name": "Kaizen",
+      "power": 9507.3
+    },
+    {
+      "pos": 2,
+      "abbr": "D2F",
+      "name": "Down2Fuq",
+      "power": 8279.8
+    },
+    {
+      "pos": 3,
+      "abbr": "FFS",
+      "name": "FireStorm",
+      "power": 6803.9
+    },
+    {
+      "pos": 4,
+      "abbr": "LUX",
+      "name": "LuxuriousLight",
+      "power": 5052.2
+    },
+    {
+      "pos": 5,
+      "abbr": "VMP",
+      "name": "Nightwalkers",
+      "power": 3878.4
+    }
+  ],
   "alliances": [
     {
       "tag": "2KVG",
