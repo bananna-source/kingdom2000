@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-20T05:02:57.262Z",
+  "generatedAt": "2026-09-21T05:03:39.939Z",
   "source": "MightPulse (https://mightpulse.com) — independent Kingshot fan site, not affiliated with Century Games",
   "kingdom": {
     "kid": 2000,
-    "ageDays": 144,
+    "ageDays": 145,
     "openedOn": "2026-04-28",
     "players": 2796,
     "active7d": 1111,
@@ -97,10 +97,10 @@
         ]
       ],
       "crowns": 1,
-      "power": 9583.4,
+      "power": 9634.3,
       "members": 100,
       "rank": 1,
-      "top10": 123.2,
+      "top10": 122.9,
       "live": true
     },
     {
@@ -124,7 +124,7 @@
         [
           70,
           999,
-          57
+          56
         ],
         [
           45,
@@ -149,14 +149,14 @@
         [
           0,
           12,
-          1
+          0
         ]
       ],
       "crowns": 1,
-      "power": 8294.7,
-      "members": 95,
+      "power": 8240.5,
+      "members": 93,
       "rank": 2,
-      "top10": 132.2,
+      "top10": 133,
       "live": true
     },
     {
@@ -209,10 +209,10 @@
         ]
       ],
       "crowns": 1,
-      "power": 6807.3,
+      "power": 6833.9,
       "members": 93,
       "rank": 3,
-      "top10": 114.8,
+      "top10": 115.2,
       "live": true
     },
     {
@@ -265,7 +265,7 @@
         ]
       ],
       "crowns": 0,
-      "power": 5059.8,
+      "power": 5090.1,
       "members": 96,
       "rank": 4,
       "top10": 75.6,
