@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-21T05:03:39.939Z",
+  "generatedAt": "2026-09-22T05:02:57.173Z",
   "source": "MightPulse (https://mightpulse.com) — independent Kingshot fan site, not affiliated with Century Games",
   "kingdom": {
     "kid": 2000,
-    "ageDays": 145,
+    "ageDays": 146,
     "openedOn": "2026-04-28",
     "players": 2796,
     "active7d": 1111,
@@ -73,7 +73,7 @@
         [
           45,
           70,
-          32
+          31
         ],
         [
           30,
@@ -97,10 +97,10 @@
         ]
       ],
       "crowns": 1,
-      "power": 9634.3,
-      "members": 100,
+      "power": 9639.3,
+      "members": 99,
       "rank": 1,
-      "top10": 122.9,
+      "top10": 123.6,
       "live": true
     },
     {
@@ -124,17 +124,17 @@
         [
           70,
           999,
-          56
+          55
         ],
         [
           45,
           70,
-          28
+          29
         ],
         [
           30,
           45,
-          6
+          7
         ],
         [
           20,
@@ -153,10 +153,10 @@
         ]
       ],
       "crowns": 1,
-      "power": 8240.5,
-      "members": 93,
+      "power": 8110,
+      "members": 94,
       "rank": 2,
-      "top10": 133,
+      "top10": 129.7,
       "live": true
     },
     {
@@ -180,7 +180,7 @@
         [
           70,
           999,
-          48
+          47
         ],
         [
           45,
@@ -209,10 +209,10 @@
         ]
       ],
       "crowns": 1,
-      "power": 6833.9,
-      "members": 93,
+      "power": 6838.5,
+      "members": 92,
       "rank": 3,
-      "top10": 115.2,
+      "top10": 115.9,
       "live": true
     },
     {
@@ -241,7 +241,7 @@
         [
           45,
           70,
-          47
+          48
         ],
         [
           30,
@@ -251,7 +251,7 @@
         [
           20,
           30,
-          7
+          6
         ],
         [
           12,
@@ -265,7 +265,7 @@
         ]
       ],
       "crowns": 0,
-      "power": 5090.1,
+      "power": 5170,
       "members": 96,
       "rank": 4,
       "top10": 75.6,
