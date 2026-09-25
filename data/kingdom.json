@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-24T05:02:48.588Z",
+  "generatedAt": "2026-09-25T05:02:40.107Z",
   "source": "MightPulse (https://mightpulse.com) — independent Kingshot fan site, not affiliated with Century Games",
   "kingdom": {
     "kid": 2000,
-    "ageDays": 148,
+    "ageDays": 149,
     "openedOn": "2026-04-28",
     "players": 3075,
     "active7d": 157,
     "active30d": 1820,
     "allianceCount": 593,
     "power": 59847,
-    "powerRank": 2354,
-    "activityRank": 2366,
+    "powerRank": 2327,
+    "activityRank": 2353,
     "floor100": 91.8
   },
   "leaderboard": [
@@ -68,7 +68,7 @@
         [
           70,
           999,
-          68
+          69
         ],
         [
           45,
@@ -78,7 +78,7 @@
         [
           30,
           45,
-          1
+          0
         ],
         [
           20,
@@ -97,10 +97,10 @@
         ]
       ],
       "crowns": 1,
-      "power": 9860.6,
+      "power": 9906.5,
       "members": 100,
       "rank": 1,
-      "top10": 125.3,
+      "top10": 125.5,
       "live": true
     },
     {
@@ -124,7 +124,7 @@
         [
           70,
           999,
-          61
+          59
         ],
         [
           45,
@@ -153,10 +153,10 @@
         ]
       ],
       "crowns": 1,
-      "power": 8206.4,
-      "members": 93,
+      "power": 8049.7,
+      "members": 91,
       "rank": 2,
-      "top10": 130.3,
+      "top10": 130.8,
       "live": true
     },
     {
@@ -185,7 +185,7 @@
         [
           45,
           70,
-          26
+          28
         ],
         [
           30,
@@ -209,10 +209,10 @@
         ]
       ],
       "crowns": 1,
-      "power": 6931.4,
-      "members": 93,
+      "power": 7039.5,
+      "members": 95,
       "rank": 3,
-      "top10": 116.7,
+      "top10": 116.9,
       "live": true
     },
     {
@@ -241,7 +241,7 @@
         [
           45,
           70,
-          45
+          46
         ],
         [
           30,
@@ -265,10 +265,10 @@
         ]
       ],
       "crowns": 0,
-      "power": 5242,
-      "members": 96,
+      "power": 5286.7,
+      "members": 97,
       "rank": 4,
-      "top10": 81.3,
+      "top10": 82.8,
       "live": true
     }
   ]
