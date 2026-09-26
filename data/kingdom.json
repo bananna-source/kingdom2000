@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-25T05:02:40.107Z",
+  "generatedAt": "2026-09-26T05:02:43.793Z",
   "source": "MightPulse (https://mightpulse.com) — independent Kingshot fan site, not affiliated with Century Games",
   "kingdom": {
     "kid": 2000,
-    "ageDays": 149,
+    "ageDays": 150,
     "openedOn": "2026-04-28",
     "players": 3075,
     "active7d": 157,
     "active30d": 1820,
     "allianceCount": 593,
     "power": 59847,
-    "powerRank": 2327,
-    "activityRank": 2353,
+    "powerRank": 2284,
+    "activityRank": 2337,
     "floor100": 91.8
   },
   "leaderboard": [
@@ -68,12 +68,12 @@
         [
           70,
           999,
-          69
+          70
         ],
         [
           45,
           70,
-          28
+          25
         ],
         [
           30,
@@ -93,14 +93,14 @@
         [
           0,
           12,
-          0
+          1
         ]
       ],
       "crowns": 1,
-      "power": 9906.5,
-      "members": 100,
+      "power": 9947.9,
+      "members": 99,
       "rank": 1,
-      "top10": 125.5,
+      "top10": 127.1,
       "live": true
     },
     {
@@ -124,7 +124,7 @@
         [
           70,
           999,
-          59
+          58
         ],
         [
           45,
@@ -134,7 +134,7 @@
         [
           30,
           45,
-          7
+          8
         ],
         [
           20,
@@ -153,10 +153,10 @@
         ]
       ],
       "crowns": 1,
-      "power": 8049.7,
+      "power": 8045.7,
       "members": 91,
       "rank": 2,
-      "top10": 130.8,
+      "top10": 131.8,
       "live": true
     },
     {
@@ -180,7 +180,7 @@
         [
           70,
           999,
-          50
+          46
         ],
         [
           45,
@@ -190,7 +190,7 @@
         [
           30,
           45,
-          11
+          12
         ],
         [
           20,
@@ -209,10 +209,10 @@
         ]
       ],
       "crowns": 1,
-      "power": 7039.5,
-      "members": 95,
+      "power": 6694.1,
+      "members": 92,
       "rank": 3,
-      "top10": 116.9,
+      "top10": 116.1,
       "live": true
     },
     {
@@ -246,7 +246,7 @@
         [
           30,
           45,
-          22
+          21
         ],
         [
           20,
@@ -265,10 +265,10 @@
         ]
       ],
       "crowns": 0,
-      "power": 5286.7,
-      "members": 97,
+      "power": 5235,
+      "members": 96,
       "rank": 4,
-      "top10": 82.8,
+      "top10": 83.5,
       "live": true
     }
   ]
